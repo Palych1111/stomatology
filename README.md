@@ -13,7 +13,7 @@
 
 #Doctors
 
--id-id доктора.
+- id-id доктора
 
 -Fio_doctor-ФИО доктора
 
