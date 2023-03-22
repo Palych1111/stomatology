@@ -9,39 +9,39 @@
 Требуется разработать автоматизированную систему для быстрой записи к врачу на приём.
 Пациент имеет возможность выбора даты и времени,выбор специалиста и услуги.
 
-#Сущности:
+# Сущности:
 
-#Doctors
+# Doctors
 
 - id-id доктора
 
--Fio_doctor-ФИО доктора
+- Fio_doctor-ФИО доктора
 
--Phone-номер телефона доктора
+- Phone-номер телефона доктора
 
--Specialization-Специальность
+- Specialization-Специальность
 
--Category-Кфалификация(от квалификации зависит стоимость услуги)
+- Category-Кфалификация(от квалификации зависит стоимость услуги)
  
-#Patients
+# Patients
 
-id-id пациента
-Fio_patient-ФИО пациента
-Phone_patient-номер телефона пациента
-Year_of_Birth-дата рождения
+- id-id пациента
+- Fio_patient-ФИО пациента
+- Phone_patient-номер телефона пациента
+- Year_of_Birth-дата рождения
 
-#Visits
+# Visits
 
-id_visit-id визита
-Fio_patient-ФИО пациента
-Fio_doctor-ФИО доктора
-Date_and_time_visit-дата и время визита
-Purpose_of_the_visit-цель визита
-Price-цена
-Diagnosis-диагноз
+- id_visit-id визита
+- Fio_patient-ФИО пациента
+- Fio_doctor-ФИО доктора
+- Date_and_time_visit-дата и время визита
+- Purpose_of_the_visit-цель визита
+- Price-цена
+- Diagnosis-диагноз
 
-#Servises
-id_servis-id услуги
-name_servis-наименование услуги
+# Servises
+- id_servis-id услуги
+- name_servis-наименование услуги
 
 
